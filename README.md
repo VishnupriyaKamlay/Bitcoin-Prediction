@@ -1,5 +1,5 @@
 
-
+# Bitcoin Price Prediction Using Machine Learning Algorithms
 
 This project focuses on predicting Bitcoin prices using historical data retrieved from CryptoCompare, a leading cryptocurrency data aggregator. The prediction models are built using two machine learning algorithms: Long Short-Term Memory (LSTM) and Random Forest. The project utilizes the last 365 days of Bitcoin price data, which is processed and transformed into a Pandas DataFrame for analysis. The 'close' prices are scaled using the Min-Max Scaler to optimize model training. The LSTM model, being highly effective in capturing long-term dependencies in time-series data, is applied for forecasting Bitcoin price trends. Meanwhile, the Random Forest algorithm is employed to offer a robust and accurate prediction by combining multiple decision trees. By evaluating the models' predictive accuracy, with LSTM achieving 97.88% and Random Forest achieving 94.65%, this project highlights the performance and effectiveness of different machine learning techniques in forecasting Bitcoin prices.
 
